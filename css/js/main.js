@@ -2,7 +2,7 @@
 const BIRTHDAY = new Date(2026, 10, 27, 0, 0, 0);
 
 // Later stages will set this to the gifts page, e.g. "pages/gifts.html"
-const NEXT_PAGE = null;
+const NEXT_PAGE = "pages/gifts.html";
 
 function plural(n, word) {
   return n + " " + word + (n === 1 ? "" : "s");
